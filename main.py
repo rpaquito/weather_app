@@ -21,7 +21,6 @@ def get_weather_forecast(city: str, days: int, api_key: str):
         print(f"Error message: {response.text}")
     else:
         data = response.json()
-        print(data)
         forecast = data['list'][days - 1]  # Weather forecast for the specified day
 
     return forecast

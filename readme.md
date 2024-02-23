@@ -6,7 +6,10 @@
 - To install uvicorn to run the webserver please execute ___pip install uvicorn___
 
 ## Execute the App
-- To run the application please run the ___uvicorn main:app --reload___ command from the root folder
+- To execute the application please run the ___uvicorn main:app --reload___ command from the root folder
+
+## Execute the Tests
+- To execute the tests please run the ___pytest tests.py___ command from the root folder
 
 ## Example usage:
 - Visit http://127.0.0.1:8000/temperature to get the temperature forecast for Lisbon in 3 days.
